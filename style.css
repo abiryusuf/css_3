@@ -1,0 +1,29 @@
+.box {
+    width: 400px;
+    height: 200px;
+    border: 4px saddlebrown solid;
+    overflow: scroll
+}
+.box1 {
+    width: 400px;
+    height: 200px;
+    border: 5px solid salmon;
+    overflow: scroll ;
+    transition: width 2s;
+
+
+}
+.box1:hover {
+    width: 600px;
+}
+.tra {
+    width: 200px;
+    height: 200px;
+    border: 2px solid salmon;
+    background-color:black;
+    transition: width 2s;
+}
+.tra:hover {
+    width: 500px;
+
+}

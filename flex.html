@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <!-- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -->
+    <style>
+        .box {
+            height: 200px;
+            width: 200px;
+            border: 2px solid salmon;
+            border-radius: 10px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column-reverse;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+</body>
+</html>
